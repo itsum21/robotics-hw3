@@ -9,11 +9,10 @@ project(algorithm)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   message_generation
-  geometry_msgs
   rospy
   std_msgs
 )
 
 catkin_package(
-  CATKIN_DEPENDS geometry_msgs rospy std_msgs
+  CATKIN_DEPENDS rospy std_msgs
 )
