@@ -14,10 +14,6 @@ add_message_files(
   Message.msg
 )    
 
-add_service_files(
-  FILES
-  Service.srv
-)
 
 generate_messages(
   DEPENDENCIES
